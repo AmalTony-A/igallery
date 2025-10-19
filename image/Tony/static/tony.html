@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Interactive Image Gallery</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <h1> Click To Enlarge </h1>
   <div class="container">
     <div class="image-section">
-      <div class="image-wrapper"><img class="clickable-image" src="new.jpg" alt="Image 1"></div>
-      <div class="image-wrapper"><img class="clickable-image" src="stark.jpg" alt="Image 2"></div>
-      <div class="image-wrapper"><img class="clickable-image" src="sk.jpg" alt="Image 3"></div>
-      <div class="image-wrapper"><img class="clickable-image" src="vijay.jpg" alt="Image 4"></div>
+      <img class="clickable-image" src="new.jpg" alt="Image 1">
+      <img class="clickable-image" src="stark.jpg" alt="Image 2">
+      <img class="clickable-image" src="sk.jpg" alt="Image 3">
+      <img class="clickable-image" src="vijay.jpg" alt="Image 4">
     </div>
 
     <div class="footer">
-      © Image Gallery | Designed by: <b>AMAL TONY CHARLES</b>
+     &copy;Image Gallery | Designed by: <b>AMAL TONY CHARLES</b>
+     <b>(25016419)</b>
     </div>
   </div>
 
   <!-- Popup overlay for enlarged image -->
   <div id="overlay">
-    <img id="overlay-img" src="" alt="Enlarged image">
+    <img id="overlay-img" src="">
   </div>
 
   <script src="index.js"></script>

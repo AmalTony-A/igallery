@@ -9,9 +9,6 @@ images.forEach(img => {
   });
 });
 
-// Close overlay when clicking outside the image
-overlay.addEventListener('click', (e) => {
-  if (e.target !== overlayImg) {
-    overlay.style.display = 'none';
-  }
+overlay.addEventListener('click', () => {
+  overlay.style.display = 'none';
 });

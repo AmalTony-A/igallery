@@ -4,7 +4,11 @@ body {
   background-color: #e5e5e5;
   font-family: Arial, sans-serif;
 }
-
+h1{
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
 .container {
   text-align: center;
   padding: 50px 20px;
@@ -18,37 +22,27 @@ body {
   flex-wrap: wrap;
 }
 
-/* Wrapper to ensure same size for all images */
-.image-wrapper {
+.clickable-image {
   width: 200px;
   height: 250px;
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 0 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
-
-/* Hover effect on wrapper */
-.image-wrapper:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
-}
-
-/* Image styling */
-.clickable-image {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+}
+
+.clickable-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
 }
 
 .footer {
   text-align: right;
   margin-top: 40px;
   font-size: 14px;
-  color: #333;
+  color: #141111;
 }
 
 /* Overlay for enlarged image */
